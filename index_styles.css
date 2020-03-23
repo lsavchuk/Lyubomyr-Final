@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import url("layout.css");
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+/*
+   Your name: Lyubomyr Savchuk
+   Filename: cw_styles.css
+
+*/
+
+
+/* Structural Styles */
+
+
+/* Body Header Styles */
+html{
+    background-color: rgb(255,255,255);
+    padding-right: 5px;
+    padding-left: 5px;
+   border-right: 5px;
+   border-left: 5px;
+   background-color: black;
+}
+body>header{
+   
+    padding-top: 100px;
+    background: #000000 url(header.jpg) 100% 100% no-repeat;
+    color:beige;
+    font-family: 'Courgette', cursive;
+}
+body>header>h1{
+    margin-top: 0px;
+    font-size: 4vw;
+    color: beige;
+}
+body{
+    height: 100%;
+
+}
+
+/* Navigation Styles */
+header a:link{
+    color: beige;
+    font-size: 1vw;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+
+/* Outline Styles */
+
+
+/* Section Styles */
+body>h1{
+    font-size: 1vw;
+    font-weight: bold;
+    color:beige;
+}
+body section>li{    
+    text-decoration: none;
+}
+body article{
+    color:beige;
+}
+@word{
+    float: right;
+}
+ section article>h2{
+    color: beige;
+}
+section aside{
+    color: beige;
+}
+.mainLinks{
+    color: beige;
+}
+
+/* Article Styles */
+
+
+/* Aside Styles */
